@@ -1,15 +1,11 @@
-1) Clone the repository
+# Clone the repository
+git clone https://github.com/yourusername/Calculator.git
 
-git clone https://github.com/your-username/your-repo-name.git
-   
-cd your-repo-name
+# Navigate to the project directory
+cd Calculator
 
-3) Install dependencies
-   
+# Install dependencies
 npm install
-   
-5) Start the development server
-   
-npm run dev
 
-Make sure you have Node.js and npm installed on your system.
+# Start the development server
+npm run dev
