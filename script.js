@@ -29,7 +29,7 @@ ac.addEventListener('click',()=>{
     clearInput();
 });
 del.addEventListener('click',()=>{
-    clearInput();
+    delInput();
 });
 seven.addEventListener('click',()=>{
     addseven();
@@ -90,6 +90,9 @@ subs.addEventListener('click',()=>{
 
 // Adding Numbers
 function clearInput() {
+    ip.value ="";
+}
+function delInput() {
     ip.value ="";
 }
 
